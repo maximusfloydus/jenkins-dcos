@@ -14,7 +14,7 @@ up and running quickly with Jenkins on DC/OS.
 
 ## Included in this repo
 Base packages:
-  * [Jenkins][jenkins-home] 2.19.1 (LTS)
+  * [Jenkins][jenkins-home] 2.19.12(LTS)
   * [Nginx][nginx-home] 1.10.1
 
 Jenkins plugins:
@@ -22,23 +22,23 @@ Jenkins plugins:
   * ansicolor v0.4.2
   * ant v1.4
   * antisamy-markup-formatter v1.5
-  * artifactory v2.7.2
+  * artifactory v2.8.1
   * async-http-client v1.7.24.1
   * authentication-tokens v1.3
   * aws-credentials v1.16
   * aws-java-sdk v1.11.37
   * azure-slave-plugin v0.3.3
-  * blueocean v1.0.0-b09
-  * blueocean-commons v1.0.0-b09
-  * blueocean-config v1.0.0-b09
-  * blueocean-dashboard v1.0.0-b09
-  * blueocean-events v1.0.0-b09
-  * blueocean-jwt v1.0.0-b09
-  * blueocean-personalization v1.0.0-b09
-  * blueocean-pipeline-api-impl v1.0.0-b09
-  * blueocean-rest v1.0.0-b09
-  * blueocean-rest-impl v1.0.0-b09
-  * blueocean-web v1.0.0-b09
+  * blueocean v1.0.0-b11
+  * blueocean-commons v1.0.0-b11
+  * blueocean-config v1.0.0-b11
+  * blueocean-dashboard v1.0.0-b11
+  * blueocean-events v1.0.0-b11
+  * blueocean-jwt v1.0.0-b11
+  * blueocean-personalization v1.0.0-b11
+  * blueocean-pipeline-api-impl v1.0.0-b11
+  * blueocean-rest v1.0.0-b11
+  * blueocean-rest-impl v1.0.0-b11
+  * blueocean-web v1.0.0-b11
   * bouncycastle-api v2.16.0
   * branch-api v1.11
   * build-name-setter v1.6.5
@@ -47,8 +47,8 @@ Jenkins plugins:
   * conditional-buildstep v1.3.5
   * config-file-provider v2.13
   * copyartifact v1.38.1
-  * credentials v2.1.7
-  * credentials-binding v1.9
+  * credentials v2.1.8
+  * credentials-binding v1.10
   * cvs v2.12
   * display-url v0.5
   * docker-build-publish v1.3.2
@@ -57,12 +57,12 @@ Jenkins plugins:
   * ec2 v1.36
   * embeddable-build-status v1.9
   * external-monitor-job v1.6
-  * favorite v1.16
+  * favorite v2.0.2
   * ghprb v1.33.1
   * git v2.6.0
-  * git-client v1.21.0
+  * git-client v2.1.0
   * git-server v1.7
-  * github v1.22.3
+  * github v1.22.4
   * github-api v1.79
   * github-branch-source v1.10
   * gitlab v1.4.3
@@ -123,17 +123,17 @@ Jenkins plugins:
   * variant v1.0
   * windows-slaves v1.2
   * workflow-aggregator v2.4
-  * workflow-api v2.5
-  * workflow-basic-steps v2.2
-  * workflow-cps v2.21
+  * workflow-api v2.6
+  * workflow-basic-steps v2.3
+  * workflow-cps v2.23
   * workflow-cps-global-lib v2.4
   * workflow-docker v1.9
   * workflow-durable-task-step v2.5
-  * workflow-job v2.7
-  * workflow-multibranch v2.9
-  * workflow-scm-step v2.2
-  * workflow-step-api v2.4
-  * workflow-support v2.10
+  * workflow-job v2.9
+  * workflow-multibranch v2.9.2
+  * workflow-scm-step v2.3
+  * workflow-step-api v2.5
+  * workflow-support v2.11
 
 
 ## Creating the WAR
